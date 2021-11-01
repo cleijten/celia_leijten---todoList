@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Filmzoeker</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script defer type="text/javascript" src="js/movies.js"></script>
+    <script defer type="text/javascript" src="js/script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Filmzoeker</h1>
+      <nav>
+        <div>
+          <input
+            type="radio"
+            id="nieuwstefilms"
+            name="film"
+            value="nieuwstefilms"
+          />
+          <label for="nieuwstefilms">Nieuwste films</label>
+        </div>
+
+        <div>
+          <input type="radio" id="avengers" name="film" value="avengers" />
+          <label for="avengers">Avengers</label>
+        </div>
+
+        <div>
+          <input type="radio" id="xmen" name="film" value="xmen" />
+          <label for="xmen">X-Men</label>
+        </div>
+
+        <div>
+          <input type="radio" id="princess" name="film" value="princess" />
+          <label for="princess">Princess</label>
+        </div>
+        <div>
+          <input type="radio" id="batman" name="film" value="batman" />
+          <label for="batman">Batman</label>
+        </div>
+      </nav>
+
+      <div>
+        <label for="filmtitle">Of zoek op tekst filmtitel:</label
+        ><input type="text" id="filmtitle" name="filmtitle" />
+        <button id="submit" name="submit">Zoek</button>
+      </div>
+    </header>
+
+    <main>
+      <ul id="filmContainer">
+        <li></li>
+      </ul>
+    </main>
+
+    <footer>&copy November 2021 | Celia Leijten</footer>
+  </body>
+</html>
