@@ -1,0 +1,51 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fa-trash {
+    color:lightsalmon;
+    float: right;
+    margin-right:200px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type:none;
+    margin:0;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 0px;
+    margin-left:5px;
+    }
+
+.done {
+    text-decoration: line-through;
+    color: darkgrey;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+input[type=checkbox] {
+    margin-right: 20px;
+    margin-left: -30px;
+    
+}
+
+button {
+    background-color: limegreen;
+    border: 0px;
+    border-radius: 20px;
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+}
+
+
+
+
